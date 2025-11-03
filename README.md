@@ -1,2 +1,5 @@
 # glimmercharger.github.io
-My Personal Site! (Work in progress)
+
+My Personal Site hosted on GitHub! (Work in progress)
+
+# Will K :)
