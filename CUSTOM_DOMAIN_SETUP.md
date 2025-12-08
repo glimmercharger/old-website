@@ -3,7 +3,7 @@
 ## When You're Ready to Add Your Custom Domain
 
 ### Quick Steps:
-1. **Buy your domain** from a registrar (Namecheap, Google Domains, etc.)
+1. **Buy your domain** from a registrar (Ionos, Namecheap, Google Domains, etc.)
 
 2. **Create CNAME file:**
    ```bash

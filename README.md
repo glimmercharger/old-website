@@ -19,6 +19,7 @@ This repository is configured to work with GitHub Pages and is ready for custom 
 
 #### Step 1: Purchase Your Domain
 Buy a domain from a registrar like:
+- [Ionos](https://www.ionos.com/) ✨
 - [Namecheap](https://www.namecheap.com/)
 - [Google Domains](https://domains.google/)
 - [GoDaddy](https://www.godaddy.com/)
@@ -73,6 +74,19 @@ dig yourdomain.com
 # Verify it points to GitHub Pages
 nslookup yourdomain.com
 ```
+
+### Ionos-Specific Instructions
+If you're using Ionos as your domain registrar:
+1. Log in to your Ionos account
+2. Go to **Domains & SSL** → Select your domain
+3. Click **DNS** settings
+4. **For apex domain (yourdomain.com):**
+   - Add 4 A Records with the GitHub IPs listed above
+   - Set TTL to 3600 (or default)
+5. **For subdomain (www.yourdomain.com):**
+   - Add a CNAME record: `www` → `glimmercharger.github.io`
+   - Set TTL to 3600 (or default)
+6. Save changes and wait for propagation (usually 1-24 hours)
 
 ### Troubleshooting
 - **Site not loading?** Check DNS propagation status at [whatsmydns.net](https://www.whatsmydns.net/)
