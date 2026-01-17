@@ -2,7 +2,7 @@
 
 This is my old personal site and is still hosting on GitHub pages so if you want to see it click the links below.
 
-Link: [Click Me!](https://willkitch.me/old-website)
+Link: [Click Me!](https://glimmercharger.github.io/old-website)
 
 # New Website
 
